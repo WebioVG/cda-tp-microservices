@@ -25,7 +25,6 @@ packages/
 *.pdb
 
 # 📌 Config & Secrets
-appsettings.*.json
 secrets.json
 *.config
 *.key

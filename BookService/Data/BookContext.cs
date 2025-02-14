@@ -5,5 +5,5 @@ namespace BookService.Data;
 
 public class BookContext(DbContextOptions<BookContext> options) : DbContext(options)
 {
-    public DbSet<Book> Users { get; set; }
+    public DbSet<Book> Books { get; set; }
 }
