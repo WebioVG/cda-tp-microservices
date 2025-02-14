@@ -9,6 +9,11 @@ public class BookRepository(BookContext context) : IBookRepository
     public async Task<IEnumerable<Book>> GetAllAsync() =>
         await context.Books.ToListAsync();
 
+    public async Task<IEnumerable<Book>> GetAllByTitleAsync(string title)
+    {
+        return await context.Books.Where(b => b.Title.Contains(title)).ToListAsync();
+    }
+
     public async Task<Book?> GetByIdAsync(int id) =>
         await context.Books.FindAsync(id);
 

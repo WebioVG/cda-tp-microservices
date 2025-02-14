@@ -14,6 +14,13 @@ public class BooksController(IBooksService booksService) : ControllerBase
         var books = await booksService.GetAllBooksAsync();
         return Ok(books);
     }
+
+    [HttpGet("search")]
+    public async Task<ActionResult<Book>> GetAllBooksByTitleAsync(string title)
+    {
+        var books = await booksService.GetAllBooksByTitleAsync(title);
+        return Ok(books);
+    }
     
     [HttpGet("{id}")]
     public async Task<ActionResult<Book>> GetBook(int id)
