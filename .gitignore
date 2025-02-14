@@ -1,0 +1,38 @@
+# 📌 Build Folders
+bin/
+obj/
+out/
+
+# 📌 User-Specific Files
+.vs/
+.idea/
+*.user
+*.suo
+*.rsuser
+*.userosscache
+*.sln.ide
+
+# 📌 Logs & Debugging
+*.log
+logs/
+*.ncrunchsolution
+*.ncrunchproject
+
+# 📌 Dependency Folders
+packages/
+.nuget/
+*.cache
+*.pdb
+
+# 📌 Config & Secrets
+appsettings.*.json
+secrets.json
+*.config
+*.key
+
+# 📌 Rider & JetBrains
+.idea/
+*.sln.iml
+
+# 📌 MacOS
+.DS_Store

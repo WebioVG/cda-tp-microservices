@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+
+  bookdb:
+    image: mysql
+    container_name: bookdb
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: BookDb
+    ports:
+      - "3308:3306"
+    networks:
+      - microservices-network
+
+  userdb:
+    image: mysql
+    container_name: userdb
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: UserDb
+    ports:
+      - "3309:3306"  
+    networks:
+      - microservices-network
+
+
+  borrowingdb:
+    image: mysql
+    container_name: borrowingdb
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: BorrowingDb
+    ports:
+      - "3310:3306"
+    networks:
+      - microservices-network
+
+networks:
+  microservices-network:
+    driver: bridge
+

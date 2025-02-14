@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService", "UserService\UserService.csproj", "{00E1F85A-65F4-4D3E-A1C3-D3E96DA1BE9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookService", "BookService\BookService.csproj", "{CBADF69E-ED3B-4573-8574-563F2879522A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BorrowingService", "BorrowingService\BorrowingService.csproj", "{1243981E-8EED-4A61-A0A0-DCB5E2CC5005}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00E1F85A-65F4-4D3E-A1C3-D3E96DA1BE9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00E1F85A-65F4-4D3E-A1C3-D3E96DA1BE9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00E1F85A-65F4-4D3E-A1C3-D3E96DA1BE9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00E1F85A-65F4-4D3E-A1C3-D3E96DA1BE9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBADF69E-ED3B-4573-8574-563F2879522A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBADF69E-ED3B-4573-8574-563F2879522A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBADF69E-ED3B-4573-8574-563F2879522A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBADF69E-ED3B-4573-8574-563F2879522A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1243981E-8EED-4A61-A0A0-DCB5E2CC5005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1243981E-8EED-4A61-A0A0-DCB5E2CC5005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1243981E-8EED-4A61-A0A0-DCB5E2CC5005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1243981E-8EED-4A61-A0A0-DCB5E2CC5005}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
